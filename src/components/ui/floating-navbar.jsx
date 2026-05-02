@@ -20,7 +20,7 @@ export const FloatingNav = ({
             "relative flex min-w-[120px] items-center justify-center space-x-1 rounded-full px-3 py-2 text-sm text-neutral-600 transition hover:text-neutral-500 sm:min-w-0"
           )}>
           <span className="block sm:hidden">{navItem.icon}</span>
-          <span className="hidden sm:block text-sm">{navItem.name}</span>
+          <span className="block text-sm">{navItem.name}</span>
         </a>
       ))}
     </div>
